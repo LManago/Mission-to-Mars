@@ -11,7 +11,7 @@ import datetime as dt
 def scrape_all():
 
     # Initiate headless driver for deployment
-    executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
+    executable_path = {'executable_path': 'C:/Users/Lakenia/.wdm/drivers/chromedriver/win32/87.0.4280.88/chromedriver.exe'}
     browser = Browser('chrome', **executable_path, headless=True)
 
     news_title, news_paragraph = mars_news(browser)
